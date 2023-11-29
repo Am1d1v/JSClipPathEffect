@@ -9,6 +9,6 @@ window.addEventListener('scroll', () => {
     let scroll = window.scrollY;
 
     // Dynamic style for circles
-    circleOne.style.clipPath = `circle(${(150 + scroll) * 0.8}px at 0 0)`
-    circleTwo.style.clipPath = `circle(${(150 + scroll) * 0.8}px at 100% 100%)`
+    circleOne.style.clipPath = `circle(${(150 + scroll) * 0.9}px at 0 0)`
+    circleTwo.style.clipPath = `circle(${(150 + scroll) * 0.9}px at 100% 100%)`
 });

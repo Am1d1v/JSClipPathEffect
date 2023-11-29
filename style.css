@@ -43,4 +43,8 @@ h2 {
   background-color: #ffb62e;
   -webkit-clip-path: circle(150px at 100% 100%);
           clip-path: circle(150px at 100% 100%);
+}
+.circle-one h2, .circle-two h2 {
+  color: transparent;
+  -webkit-text-stroke: 5px #333;
 }/*# sourceMappingURL=style.css.map */
